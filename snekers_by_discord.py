@@ -163,7 +163,7 @@ def discord(final_info):
     time_now = "[" + str(now.hour).zfill(2) + ":" + str(now.minute).zfill(2) + ":" + str(now.second).zfill(
         2) + "]"
 
-    url = "https://discordapp.com/api/webhooks/718152621965312025/OxROXNzAGSLsAUeZztzzteF6b7_X_6y4VU8V46X7B07sIjHbcfZ_HY1EVl7y6URWqRoj"
+    url = ""
     webhook = DiscordWebhook(url=url, content=' ')
     embed = DiscordEmbed(title="SNEAKERS BOT" + " " + time_now + " " + final_info["day"],
                          description=str(final_info["link"]), color=999900)
